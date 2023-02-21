@@ -1,9 +1,16 @@
+;= Windows stuff
 ls=dir $*
 mv=move $*
 cp=copy $1 $2 /Y
 cat=type $*
+open.=explorer .
+mkdirr= mkdir $1 && cd $1
+
+;= Github stuff
 gp=git pull $*
 gc=git add . && git commit -m $*
-open.=explorer .
+
+;= macros
 macros=doskey /macros:all
-mkdirr= mkdir $1 && cd $1
+
+;=
