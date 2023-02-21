@@ -1,0 +1,9 @@
+ls=dir $*
+mv=move $*
+cp=copy $1 $2 /Y
+cat=type $*
+gp=git pull $*
+gc=git add . && git commit -m $*
+open.=explorer .
+macros=doskey /macros:all
+mkdirr= mkdir $1 && cd $1
