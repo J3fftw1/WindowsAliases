@@ -5,6 +5,7 @@ cp=copy $1 $2 /Y
 cat=type $*
 open.=explorer .
 mkdirr= mkdir $1 && cd $1
+ws= cd C:\Users\jeffr\workspace
 
 ;= Github stuff
 gp=git pull $*
